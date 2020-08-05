@@ -35,6 +35,6 @@ while rep == 'Y':
         except OSError:
             print ("Error !")
         else:
-            print("Success !")
+            print(f"Successfully moved all {directories[i]} files !")
     
     rep = input('Do it again ? (Y/N) : ')
